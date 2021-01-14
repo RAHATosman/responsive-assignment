@@ -18,7 +18,33 @@ p{
     background-color: #995ee6;
 }
 .icons img{
-    margin: 10px;
+    margin: 0 5px;
     width: 80px;
     height: 80px;
+}
+.contact-sec{
+    color: white;
+    background-color: rgb(122, 57, 172);
+    height: 300px;
+    text-align: justify;
+    margin-top: 35px;
+    
+}
+.box{
+    position: relative;
+    left: 40%
+}
+.email{
+    margin: 10px 0px
+}
+.messeage{
+    margin: 10px 0px;
+}
+.btn button{
+    margin: 20px 0px;
+    padding: 5px 10px;
+    color: rgb(46, 23, 23);
+    font-weight: 600;
+    background-color: white;
+    border: 0px;
 }

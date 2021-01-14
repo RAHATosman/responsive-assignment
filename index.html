@@ -18,17 +18,17 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="nav navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Product</a>
-              <a class="nav-link" href="#">About us</a>
-              <a class="nav-link" href="#">contact us</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link" href="#product">Product</a>
+              <a class="nav-link" href="#about-us">About us</a>
+              <a class="nav-link" href="#contact-us">contact us</a>
             </div>
           </div>
         </div>
       </nav>
     </header>
     <main class="container ">
-        <section class="first-sec row d-flex align-items-center p-5">
+        <section class="first-sec row d-flex align-items-center p-5" id="home">
             <div class="col-md-6">
                 <h1 class="head1">BE THE PENGUINS</h1>
                 <h1 class="head2">OF WINTER</h1>
@@ -41,7 +41,7 @@
                 <img class="w-75" src="image/rahat's.png" alt="">
             </div>
         </section>
-        <section class="mt-5">
+        <section class="mt-5" id="product">
           <h3 class="head2 mb-5">MAN JACKET</h3>
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
@@ -141,7 +141,7 @@
             </div>
           </div>
         </section>
-        <section class="row mt-5 d-flex align-items-center">
+        <section class="row mt-5 d-flex align-items-center" id="about-us">
           <div class="col-md-6">
             <div class="shadow rounded d-flex align-items-center justify-content-around h-auto mt-5">
               <div class="icons">
@@ -181,8 +181,29 @@
             <img src="image/XMLID 1.png" class="w-100 mt-5 feature-image" alt="">
           </div>
         </section>
-        
     </main>
+    <footer id="contact-us">
+      <section class="contact-sec">
+        <div class="box">
+            <h2>Contact us</h2>
+            <div>
+                <form action="#">
+                    <div class="email">
+                        <div class="email">Email *</div>
+                        <input type="email" required>
+                    </div>
+                    <div>
+                        <div class="messeage">Message *</div>
+                        <input type="messeage" required>
+                    </div>
+                    <div class="btn">
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    </footer>
 
 
 
