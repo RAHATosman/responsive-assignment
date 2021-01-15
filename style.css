@@ -1,8 +1,11 @@
 body{
     background-color: white;
 }
+header{
+    background-color: #a673ee;
+}
 .head1{
-    color: #ffef0b;
+    
     font-size: 40px;
     font-weight: 700;
 }
@@ -12,15 +15,29 @@ body{
     font-weight: 700;
 }
 p{
-    color: rgb(173, 166, 166);
+    color: rgb(112, 108, 108);
 }
 .first-sec{
-    background-color: #995ee6;
+    
 }
 .icons img{
-    margin: 0 5px;
+    margin: 0 15px;
     width: 80px;
     height: 80px;
+}
+.cards-img{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    background-color: rgb(223, 221, 221);
+}
+.cards-img img{
+    height: 80%;
+    width: 70%;
+    border-radius: 30%;
+    margin: auto auto;
 }
 .contact-sec{
     color: white;
@@ -30,10 +47,10 @@ p{
     margin-top: 35px;
     
 }
-.box{
+/* .right-box{
     position: relative;
     left: 40%
-}
+} */
 .email{
     margin: 10px 0px
 }
