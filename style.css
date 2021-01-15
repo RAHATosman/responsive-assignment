@@ -4,8 +4,11 @@ body{
 header{
     background-color: #a673ee;
 }
+nav .nav-img{
+    width: 200px;
+}
 .head1{
-    
+    color: rgb(255, 208, 0);
     font-size: 40px;
     font-weight: 700;
 }
@@ -15,7 +18,7 @@ header{
     font-weight: 700;
 }
 p{
-    color: rgb(112, 108, 108);
+    color: rgb(42, 40, 40);
 }
 .first-sec{
     
@@ -42,26 +45,4 @@ p{
 .contact-sec{
     color: white;
     background-color: rgb(122, 57, 172);
-    height: 300px;
-    text-align: justify;
-    margin-top: 35px;
-    
-}
-/* .right-box{
-    position: relative;
-    left: 40%
-} */
-.email{
-    margin: 10px 0px
-}
-.messeage{
-    margin: 10px 0px;
-}
-.btn button{
-    margin: 20px 0px;
-    padding: 5px 10px;
-    color: rgb(46, 23, 23);
-    font-weight: 600;
-    background-color: white;
-    border: 0px;
 }
